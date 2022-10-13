@@ -1,0 +1,121 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: black;
+    
+}
+h1{
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 75px;
+    
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+/*HEADER*/
+
+.header__container {
+    height: 727px;
+    background-size: cover;
+    background-image: transparent url(../img/bg-header.jpg) ;
+    opacity: 1;
+}
+.section_container {
+    top: 800px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+}
+.section_container-content {
+    width: 40%;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 150px;
+    top: 800px;
+    width: 475px;
+    height: 197px;
+    text-align: left;
+    margin-bottom: 876px;
+    
+}
+.section_container-content img {
+    width: 399px;
+    height: 237px;
+    top: 845px;
+    left: 731px;
+    margin-right: 150px;
+    margin-left: 0px;
+    margin-top: 5px;
+    
+}
+
+.iguana-image {
+    margin-top: 30px;
+}
+
+/*section-icons*/
+
+.section__icon {
+    text-align: center;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    /*padding: 75px;*/
+    margin-bottom: 73px;
+    display: flow-root;
+    margin-bottom: 73px;
+    top: 1141px;
+    left: 0px;
+    height: 348px; 
+    
+}
+i {
+    font-size: 37px;
+    margin-bottom: 16.2px;
+    
+}
+.section__icon-icon{
+    display: inline-block;
+    margin: 140px 80px;
+    margin-top: 50px;
+}
+
+/*SECTION IMAGES*/
+
+.section__images {
+    text-align: center;
+    margin-bottom: 73px;
+
+}
+.section__images img {
+    width: 316px;
+    height: 202px;
+    margin: 5px;
+}
+/*FOOTER*/
+
+footer {
+    background: #1E1A13;
+    opacity: 0.94; 
+    height: 104px;
+    line-height: 100px;
+    text-align: center;
+}
